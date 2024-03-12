@@ -88,6 +88,7 @@ ErrorCode decode_symbol_from_morse(char *morse_symbol, char *c) {
         }
     return INVALID_INPUT;
 }
+
 ErrorCode decode_string_from_morse(const char *morse_string, char *str) {
     int i = 0;
     while (morse_string[i] != '\0') {
