@@ -91,8 +91,7 @@ if os.path.isfile(B_FILE_PATH):
 
     def test_words_into_morse_3():
         input_str = '1\n20 000 Leagues Under The Sea'
-        exp_output = ('..--- -----\t----- ----- -----\t.-.. . .- --. ..- . ...'
-                      '\t..- -. -.. . .-.\t- .... .\t... . .-')
+        exp_output = ('..--- -----\t----- ----- -----\t.-.. . .- --. ..- . ...\t..- -. -.. . .-.\t- .... .\t... . .-')
         run_test_with_correct_input(input_str, exp_output)
 
     def test_morse_into_letters_1():
